@@ -1,2 +1,32 @@
 Signal Quality/Strength ➜ AT+CSQ;AT+CSQ
-
+Display MT Identification Information ➜ ATI;ATI
+Request Manufacturer Identification ➜ AT+GMI;AT+GMI
+Request Model Identification ➜ AT+GMM;AT+GMM
+Request MT Firmware Revision Identification ➜ AT+GMR;AT+GMR
+Request Manufacturer Identification ➜ AT+CGMI;AT+CGMI
+Request MT Model Identification ➜ AT+CGMM;AT+CGMM
+Request International Mobile Equipment Identity (IMEI) ➜ AT+GSN;AT+GSN
+Request International Mobile Equipment Identity (IMEI) ➜ AT+CGSN;AT+CGSN
+Change International Mobile Equipment Identity (IMEI) ➜ AT+EGMR=1,7,"IMEI NUMBER";AT+EGMR=1,7,"861932058397409"
+Display Current Configuration ➜ AT&V;AT&V
+Display Operator ➜ AT+COPS?;AT+COPS?
+Switch off modem ➜ AT+CFUN=0;AT+CFUN=0
+Switch on modem ➜ AT+CFUN=1;AT+CFUN=1
+Switch off modem ➜ AT+CFUN=4;AT+CFUN=4
+Request International Mobile Subscriber Identity(IMSI) ➜ AT+CIMI;AT+CIMI
+List all current network operators ➜ AT+COPS=?;AT+COPS=?
+Display currently selected network operator ➜ AT+COPS?;AT+COPS?
+Display currently APN Profile ➜ AT+CGDCONT?;AT+CGDCONT?
+Display currently preferred mode ➜ AT+QNWPREFCFG="mode_pref”;AT+QNWPREFCFG="mode_pref"
+Display currently selected band ➜ AT+QNWINFO;AT+QNWINFO
+Display currently selected LTE band ➜ AT+QNWPREFCFG="lte_band”;AT+QNWPREFCFG="lte_band"
+Display currently selected 5G NSA band ➜ AT+QNWPREFCFG="nsa_nr5g_band”;AT+QNWPREFCFG="nsa_nr5g_band"
+Display currently selected 5G NR band ➜ AT+QNWPREFCFG="nr5g_band”;AT+QNWPREFCFG="nr5g_band"
+Lock 5G PCI ➜ AT+QNWLOCK="common/5g",<pci>,<earfcn>,<scs>,<band>;AT+QNWLOCK="common/5g",<pci>,<earfcn>,<scs>,<band>
+Display currenly serving cell ➜ AT+QENG="servingcell”; AT+QENG="servingcell"
+Display neighbour cell ➜ AT+QENG="neighbourcell”; AT+QENG="neighbourcell"
+Display antenna signal information ➜ AT+QRSRP;AT+QRSRP
+Display protocol using ➜ AT+QCFG="usbnet";AT+QCFG="usbnet"
+Use QMI Protocol ➜ AT+QCFG="usbnet",0;AT+QCFG="usbnet",0
+Use USB0 Protocol ➜ AT+QCFG="usbnet",1;AT+QCFG="usbnet",1
+Use MBIM ➜ AT+QCFG="usbnet",2;AT+QCFG="usbnet",2
